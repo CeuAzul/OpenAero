@@ -12,5 +12,6 @@ def lift(air_density, air_velocity, wing_area, lift_coefficient):
     Returns:
 
     """
+    lift = 0.5 * air_density * air_velocity**2 * wing_area * lift_coefficient
 
-    return 0.5 * air_density * air_velocity^2 * wing_area * lift_coefficient
+    return lift
