@@ -12,5 +12,6 @@ def drag(air_density, air_velocity, wing_area, drag_coefficient):
     Returns:
 
     """
+    drag = 0.5 * air_density * air_velocity**2 * wing_area * drag_coefficient
 
-    return 0.5 * air_density * air_velocity^2 * wing_area * drag_coefficient
+    return drag
