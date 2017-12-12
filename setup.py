@@ -8,7 +8,6 @@ setup(name='openaero',
       author_email='rafael.lehmkuhl93@gmail.com',
       license='MIT',
       packages=['openaero'],
-      install_requires=[
-          'pytest'
-      ],
+      setup_requires=['pytest-runner'],
+      test_requires=['pytest'],
       zip_safe=False)
